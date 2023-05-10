@@ -86,5 +86,4 @@ const signUpValidation = (username, password) => {
 module.exports = {
     signupUser,
     loginUser
-
 };

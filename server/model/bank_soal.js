@@ -12,8 +12,8 @@ const bank_soal = new mongoose.Schema({
         type: Array,
         required: true
     },
-    
+
 }, { timestamps: false });
 
- 
-module.export=mongoose.model('bank_soal',bank_soal);
+
+module.exports = mongoose.model('bank_soal', bank_soal);

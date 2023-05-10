@@ -8,8 +8,8 @@ const hasil_tes = new mongoose.Schema({
         type: String,
         required: true
     },
-    
+
 }, { timestamps: true });
 
- 
-module.export=mongoose.model('hasil_tes',hasil_tes);
+
+module.exports = mongoose.model('hasil_tes', hasil_tes);
